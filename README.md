@@ -7,7 +7,7 @@ npm run serve
 ```
 
 ## TODO:
- - [  ] Vim install .vue syntax highlighting
+- [ ] Vim install .vue syntax highlighting
 
 ## Notes:
 
@@ -20,5 +20,5 @@ npm run serve
   - [Emmet](https://emmet.io/)
 - Additional tools
   - Copy Relative Path
-  - Integrated terinal: `ctrl + \``
+  - Integrated terinal: `ctrl + ``
   - Vue VSCode Snippets (search `sarah.drasner`)
