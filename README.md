@@ -7,7 +7,7 @@ npm run serve
 ```
 
 ## TODO:
- [] Vim install .vue syntax highlighting
+ - [  ] Vim install .vue syntax highlighting
 
 ## Notes:
 
