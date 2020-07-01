@@ -10,6 +10,12 @@ npm run serve
 
 ## TODO:
 - [ ] Vim install .vue syntax highlighting
+- [ ] Vue router
+- [ ] Dynamic routing & history mode
+- [ ] Single file vue components
+- [ ] Global components
+- [ ] Slots
+- [ ] API calls with Axios
 
 ## Notes:
 
