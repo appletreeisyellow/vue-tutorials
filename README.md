@@ -1,5 +1,7 @@
 # real-world-vue-js
 
+Code-along tutorial "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)"
+
 To start the local server:
 ```
 cd real-world-vue
