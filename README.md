@@ -30,3 +30,10 @@ npm run serve
   - Copy Relative Path
   - Integrated terinal: `ctrl + ``
   - Vue VSCode Snippets (search `sarah.drasner`)
+
+### Router
+
+  - Single Page Application (SPA) vs. a tag
+    - SPA is faster than a tag because it makes smaller request to only fetch the data that changes, but a tag refetch all the things on the page, including those stay the same.
+    - `router-link` uses a tag. Hoever, it will intercept the click event so that the browser doesn't try to reload the page.
+    - Generally, use `router-link` for internal link, use 'a tag' for external link.
