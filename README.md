@@ -44,3 +44,10 @@ Code-along tutorial "[Vue Router for Everyone](https://vueschool.io/courses/vue-
     - Just load js files when the page needs the code to save time to land on a page.
     - Magic comment `/* webpackChunkName: "..." */` gives the lazy loaded file a name
     - Learn more on lazy loading at "[Load Vue Components Asynchronously](https://vueschool.io/lessons/dynamically-load-components)"
+  - Dynamic router
+    - Why change the URL doesn't update the component on the page?
+      - This is because Vue Router doesn't notice any change if the same component is being used. We need the component to be reloaded with the new data.
+      - To solve this problem, add a key in `router-view` in `App.vue`, like this
+      ```
+      <router-view :key="$route.path"/>
+      ```
