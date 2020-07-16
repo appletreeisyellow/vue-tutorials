@@ -1,7 +1,5 @@
 # real-world-vue-js
 
-Code-along tutorial "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)"
-
 To start the local server:
 ```
 cd real-world-vue
@@ -21,6 +19,8 @@ npm run serve
 
 ### Optimizing your Editor
 
+Code-along tutorial "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)"
+
 - VS code
 - Vetur
   - Syntax highlighting
@@ -33,7 +33,14 @@ npm run serve
 
 ### Router
 
+Code-along tutorial "[Vue Router for Everyone](https://vueschool.io/courses/vue-router-for-everyone)"
+
   - Single Page Application (SPA) vs. a tag
     - SPA is faster than a tag because it makes smaller request to only fetch the data that changes, but a tag refetch all the things on the page, including those stay the same.
     - `router-link` uses a tag. Hoever, it will intercept the click event so that the browser doesn't try to reload the page.
     - Generally, use `router-link` for internal link, use 'a tag' for external link.
+  - Lazy load
+    - Lazy load the routes with webpack's code splitting feature
+    - Just load js files when the page needs the code to save time to land on a page.
+    - Magic comment `/* webpackChunkName: "..." */` gives the lazy loaded file a name
+    - Learn more on lazy loading at "[Load Vue Components Asynchronously](https://vueschool.io/lessons/dynamically-load-components)"
