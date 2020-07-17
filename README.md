@@ -51,3 +51,7 @@ Code-along tutorial "[Vue Router for Everyone](https://vueschool.io/courses/vue-
       ```
       <router-view :key="$route.path"/>
       ```
+  - Vue Router
+    - How to remove the "#" in the URL?
+      - By turning on the `history` mode in router.
+      - Check `index.js` file.
