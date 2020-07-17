@@ -11,7 +11,7 @@ const routes = [
     component: Home,
   },
   {
-    path: "/details/:id",
+    path: "/details/:slug",
     name: "DestinationDetails",
     component: () =>
       import(
@@ -21,6 +21,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
+  mode: "history", // make URL look normal without "#" sign
   linkExactActiveClass: "vue-school-sctive-class",
   routes,
 });

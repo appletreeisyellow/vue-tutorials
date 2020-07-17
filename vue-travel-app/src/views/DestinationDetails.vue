@@ -14,13 +14,13 @@ import store from "@/store.js";
 export default {
   data() {
     return {
-      destinationID: this.$route.params.id
+      slug: this.$route.params.slug
     };
   },
   computed: {
     destination() {
       return store.destinations.find(
-        destination => destination.id === this.destinationID
+        destination => destination.slug === this.slug
       );
     }
   }
