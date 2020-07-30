@@ -9,8 +9,7 @@ npm run serve
 Then in browser, go to `http://localhost:8080/`
 
 ## TODO:
-- [ ] Vim install .vue syntax highlighting
-- [ ] Vue router
+- [x] Vue router
 - [ ] Dynamic routing & history mode
 - [ ] Single file vue components
 - [ ] Global components
