@@ -54,6 +54,13 @@ const routes = [
     component: () => import(/* webpackChunkName: "Login" */ "../views/Login"),
   },
   {
+    path: "/invoices",
+    name: "invoices",
+    component: () =>
+      import(/* webpackChunkName: "Invoices" */ "../views/Invoices"),
+    meta: { requiredAuth: true },
+  },
+  {
     // Not found page
     // Put at the end of all routes
     path: "/404",
@@ -95,7 +102,10 @@ router.beforeEach((to, from, next) => {
   ) {
     // need to login
     if (!store.user) {
-      next({ name: "login" });
+      next({
+        name: "login",
+        query: { redirect: to.fullPath },
+      });
     } else {
       next();
     }
