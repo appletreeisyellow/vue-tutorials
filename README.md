@@ -19,7 +19,7 @@ npm run serve
 
 ### Optimizing your Editor
 
-Code-along tutorial from vuemastery.com "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)." Check the [`real-world-vue`](https://github.com/appletreeisyellow/real-world-vue-js/tree/master/real-world-vue) folder.
+Code-along tutorial from Vue Mastery "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)". Check the [`real-world-vue`](https://github.com/appletreeisyellow/real-world-vue-js/tree/master/real-world-vue) folder.
 
 - VS code
 - Vetur
@@ -33,7 +33,7 @@ Code-along tutorial from vuemastery.com "[Real World Vue.js](https://www.vuemast
 
 ### Router
 
-Code-along tutorial "[Vue Router for Everyone](https://vueschool.io/courses/vue-router-for-everyone)"
+Code-along tutorial from Vue School "[Vue Router for Everyone](https://vueschool.io/courses/vue-router-for-everyone)". Check the [`vue-travel-app`](https://github.com/appletreeisyellow/real-world-vue-js/tree/master/vue-travel-app) folder.
 
   - Single Page Application (SPA) vs. a tag
     - SPA is faster than a tag because it makes smaller request to only fetch the data that changes, but a tag refetch all the things on the page, including those stay the same.
