@@ -29,7 +29,7 @@ Code-along tutorial from Vue Mastery "[Real World Vue.js](https://www.vuemastery
   - [Emmet](https://emmet.io/)
 - Additional tools
   - Copy Relative Path
-  - Integrated terinal: `ctrl + ``
+  - Integrated terminal: `ctrl + ``
   - Vue VSCode Snippets (search `sarah.drasner`)
 
 ### Router
