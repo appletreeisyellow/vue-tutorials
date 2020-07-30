@@ -1,4 +1,4 @@
-# real-world-vue-js
+# vue-tutorials
 
 To start the local server:
 ```
