@@ -10,9 +10,9 @@ Then in browser, go to `http://localhost:8080/`
 
 ## TODO:
 - [x] Vue router
-- [ ] Dynamic routing & history mode
-- [ ] Single file vue components
-- [ ] Global components
+- [x] Dynamic routing & history mode
+- [x] Single file vue components
+- [x] Global components
 - [ ] Slots
 - [ ] API calls with Axios
 
