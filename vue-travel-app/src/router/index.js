@@ -90,10 +90,9 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   if (
     to.matched.some((record) => {
-      record.meta.requiredAuth;
+      return record.meta.requiresAuth;
     })
   ) {
-    console.log("1");
     // need to login
     if (!store.user) {
       next({ name: "login" });
@@ -101,7 +100,6 @@ router.beforeEach((to, from, next) => {
       next();
     }
   } else {
-    console.log("2");
     next();
   }
 });
