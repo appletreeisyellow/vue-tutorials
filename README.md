@@ -19,7 +19,7 @@ npm run serve
 
 ### Optimizing your Editor
 
-Code-along tutorial "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)"
+Code-along tutorial from vuemastery.com "[Real World Vue.js](https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro)." Check the `[real-world-vue](https://github.com/appletreeisyellow/real-world-vue-js/tree/master/real-world-vue)` folder.
 
 - VS code
 - Vetur
